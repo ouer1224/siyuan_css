@@ -593,7 +593,8 @@ element.style {
 
 /* 弱化面板列表中的块类型图标 */
 .b3-list li[data-node-id] svg{
-    color: var(--b3-theme-on-surface);
+    /*color: var(--b3-theme-on-surface);*/
+	color: #d23f31;
 }
 
 
@@ -1104,3 +1105,9 @@ body{
 		padding: 2px !important;
 		margin: 0px 0;
 	}
+
+.vditor-reset h1 ,.vditor-reset h2 ,.vditor-reset h3 ,.vditor-reset h4{
+    padding: 0.3em 4px;
+    font-size: 1.25em;
+    border-bottom: 1px solid var(--b3-border-color);
+}
